@@ -1,9 +1,3 @@
-"""
-LESSON: 3.1 - Lines
-TECHNIQUE 2: Declaring Points
-PRACTICE 1
-"""
-
 import pygame
 pygame.init()
 
@@ -25,7 +19,3 @@ pygame.draw.line(window, (173, 216, 35), top_left, bottom_left, 2)
 
 pygame.display.flip()
 pygame.time.wait(5000)
-
-
-# Turn in your Coding Exercise.
-
