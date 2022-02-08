@@ -1,9 +1,3 @@
-"""
-LESSON: 3.1 - Lines
-TECHNIQUE 2: Declaring Points
-DEMO
-"""
-
 import pygame
 pygame.init()
 
