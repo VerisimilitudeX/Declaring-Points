@@ -1,9 +1,3 @@
-"""
-LESSON: 3.1 - Lines
-TECHNIQUE 3: Line Thickness
-PRACTICE 2
-"""
-
 import pygame
 pygame.init()
 
@@ -28,7 +22,3 @@ pygame.draw.line(window, blue, left, right, 15)
 
 pygame.display.flip()
 pygame.time.wait(5000)
-
-
-# Turn in your Coding Exercise.
-
