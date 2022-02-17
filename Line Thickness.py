@@ -4,13 +4,11 @@ pygame.init()
 window = pygame.display.set_mode([400, 400])
 window.fill((255, 255, 255))
 
-# Declare points
 left = (0, 200)
 right = (400, 200)
 top = (200, 0)
 bottom = (200, 400)
 
-# Draw lines
 pygame.draw.line(window, (231, 154, 73), left, top, 1)
 pygame.draw.line(window, (231, 154, 73), left, bottom, 2)
 pygame.draw.line(window, (231, 154, 73), right, bottom, 4)
