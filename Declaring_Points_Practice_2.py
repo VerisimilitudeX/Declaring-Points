@@ -1,6 +1,6 @@
 import pygame
-pygame.init()
 
+pygame.init()
 window = pygame.display.set_mode([400, 400])
 window.fill((255, 255, 255))
 
