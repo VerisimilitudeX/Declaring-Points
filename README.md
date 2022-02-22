@@ -1,5 +1,5 @@
 # Declaring Points
-The pygame library gives us the tools to draw shapes. First the library must be imported and initialized, then a window opened, then you can draw lines inside the window at specific coordinate points.
+The pygame library has tools to draw shapes. First the library must be imported and initialized, then a window opened, then lines can be drawn inside the window at specific coordinate points.
 # Drawing lines in Python using PyGame
 * import pygame
 * pygame.init()
@@ -8,4 +8,4 @@ The pygame library gives us the tools to draw shapes. First the library must be 
 * window = pygame.display.set_mode([400, 300])
 * window.fill(255, 255, 255)
 * pygame.draw.line(window, (255, 255, 255), left, right, 2)
-* pygame.display.flip() 
+* pygame.display.flip()
